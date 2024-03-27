@@ -53,7 +53,7 @@ h1 {
 
 button {
     display: block;
-    margin-top: 20px;
+    margin: 20px auto; /* Margem superior e inferior de 20px e margem lateral automática para centralizar */
     padding: 10px 20px;
     background-color: #007bff; /* Cor de fundo */
     color: #fff; /* Cor do texto */
@@ -67,3 +67,12 @@ button {
 button:hover {
     background-color: #0056b3; /* Mudança de cor ao passar o mouse */
 }
+
+img {
+    display: block;
+    margin: 0 auto; /* Margem automática nas laterais para centralizar */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Adiciona borda arredondada à imagem */
+}
+
