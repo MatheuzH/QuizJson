@@ -1,0 +1,54 @@
+{
+    "paginas": [
+        {
+            "capa": {
+                "imagem": "quiz.jpg",
+                "alt": "Imagem de capa da página 1"
+            },
+            "perguntas": [
+                {
+                    "pergunta": "Qual é a capital do Brasil?",
+                    "respostas": ["Rio de Janeiro", "Brasília"],
+                    "correta": "Brasília"
+                },
+                {
+                    "pergunta": "Qual é o prato típico da Itália?",
+                    "respostas": ["Paella", "Pizza"],
+                    "correta": "Pizza"
+                }
+            ],
+            "botao": {
+                "texto": "Próxima Página"
+            }
+        },
+        {
+            "capa": {
+                "imagem": "quiz.jpg",
+                "alt": "Imagem de capa da página 2"
+            },
+            "perguntas": [
+                {
+                    "pergunta": "Qual é o maior planeta do Sistema Solar?",
+                    "respostas": ["Júpiter", "Terra"],
+                    "correta": "Júpiter"
+                },
+                {
+                    "pergunta": "Quem escreveu 'Dom Quixote'?",
+                    "respostas": ["William Shakespeare", "Miguel de Cervantes"],
+                    "correta": "Miguel de Cervantes"
+                }
+            ],
+            "botao": {
+                "texto": "Finalizar Quiz"
+            }
+        },
+        {
+            "finalizacao": {
+                "imagem": "quiz.jpg",
+                "alt": "Imagem de finalização",
+                "titulo": "Parabéns! Você completou o quiz!",
+                "descricao": "Esperamos que você tenha gostado do quiz. Continue praticando e aprendendo!"
+            }
+        }
+    ]
+}
